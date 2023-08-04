@@ -1,0 +1,333 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.one{
+    position:sticky;
+    top:0;
+    width:100%;
+    background-color:rgb(27, 27, 154);
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5rem;
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.7);
+    z-index: 3;
+    
+    
+}
+
+.symbol{
+    font-size:35px;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.listt{
+    display:flex;
+    gap:0.7rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    font-size:18px ;
+    
+}
+
+
+
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+a:visited, a:active{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+
+.two{
+    background-image: url("/img/hero_image.png");
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    border:6px pink;
+    
+}
+
+.textt{
+    width:100%;
+    
+    text-align: center;
+    
+    
+    
+    
+}
+
+.textt h1{
+    font-size: 100px;
+    padding-top:8rem;
+    padding-bottom:4rem;
+}
+
+.textt h2{
+    font-size:30px;
+    margin-bottom:3rem;
+}
+
+.textt p{
+    
+    width:98%;
+    margin:0 auto;
+    padding-bottom:9rem;
+    font-size:18px;
+
+}
+
+
+.three{
+    background-color:rgb(3, 3, 61);
+    color:white;
+    text-align: center;
+}
+.txtt2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.t1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    gap:1rem
+    
+}
+
+.t1a{
+    font-size:30px;
+}
+
+.t1b{
+    font-size: 30px;
+}
+
+.t2{
+    text-align: left;
+    line-height: 1.5rem;
+    width:98%;
+    margin:0 auto;
+    margin-bottom:2rem;
+}
+
+.t3{
+    background-color: red;
+    padding:0.7rem;
+    color:white;
+    border:transparent;
+    margin-bottom:2rem;
+}
+.t4{
+    margin-bottom:2rem;
+}
+.t5{
+    width:80%;
+    margin:0 auto;
+    margin-top: -400px;
+    position:relative;
+    top:400px;
+
+
+}
+
+
+
+
+    
+
+.sb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:28rem;
+
+
+}
+
+
+@media (max-width:786px){
+    .t5{
+        position:relative;
+        top:250px;
+        margin-top:-250px;
+    
+        
+    }
+    .sb{
+        margin-top: 20rem;
+    }
+}
+
+
+.s1{
+    
+    margin-bottom:3rem;
+    font-size:20px;
+  
+    
+    
+}
+
+.s2{
+    width:96%;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:3rem;
+    
+
+}
+
+.s3{
+    background-color:rgb(27, 27, 154);
+    color:white;
+    padding:0.6rem;
+    margin-bottom: 3rem;
+    border:transparent;
+}
+
+.s4{
+    width:80%;
+    margin:0 auto;
+    margin-bottom:5rem;
+}
+
+
+.five{
+    background-image: url("/img/video.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: center;
+}
+
+.five h1{
+    padding-top:17rem;
+    margin-bottom: 3rem;
+}
+
+.five p{
+    padding-bottom:25rem;
+}
+
+
+
+.six{
+    display:flex;
+    
+    width:98%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top:4rem;
+    margin-bottom:7rem;
+}
+
+.x2 h2{
+    margin-bottom:2rem;
+
+}
+
+.x2 p{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.x3{
+    margin-top:1rem;
+    padding:0.6rem;
+    background-color:rgb(27, 27, 154);
+    border:transparent;
+    color:white;
+}
+
+
+.seven{
+    width:100%;
+}
+
+.order1{
+    background-color:rgb(3, 3, 61);
+    color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    padding-bottom:3rem;
+    gap:3rem;
+}
+
+.order1 p{
+    font-size: 18px;
+    line-height: 1.2rem;
+}
+
+.order2{
+    background-color:rgb(27, 27, 154); ;
+    padding:2rem;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+
+@media (max-width:786px){
+
+    .six{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:95%;
+    }
+    order1{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size:15px;
+    
+        text-align: center;
+    }
+
+ 
+    
+}
+
+
+
+
+
+
+
+
+
