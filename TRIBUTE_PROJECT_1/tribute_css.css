@@ -1,0 +1,73 @@
+body{
+    border: 10px solid black;
+    margin:0;
+    padding-left:8em;
+    padding-right:8em;
+    padding-top:5em;
+    padding-bottom:4em;
+    background-color: #e5e5fd;
+}
+
+.heading{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    
+    
+    text-align: center;
+    line-height:1em;
+    
+}
+
+.pic img{
+    border-radius :50%;
+    overflow: hidden;
+    
+    height:100;
+    width:auto;
+}
+
+
+.contact{
+    text-align: right;
+}
+
+a:active{
+    color:blue;
+    text-decoration: underline;
+}
+.about{
+    line-height: 1.5rem;
+    
+    letter-spacing:2px;
+    text-align:justify;
+    font-size:20px;
+}
+
+.head h1{
+    font-size: 50px;
+    text-align:center;
+}
+
+.head h4{
+    font-size:30px;
+    text-align:right;
+    
+
+}
+
+h3{
+    font-size:60px;
+    font-weight: lighter;
+    
+}
+
+ul li{
+    line-height: 2rem;
+}
+
+.bib h4{
+    font-size:20px;
+}

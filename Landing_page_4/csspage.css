@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Roboto";
+}
+
+.one{
+    height:100vh;
+    width:100%;
+    background-image: url("/images/developer.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative;
+    
+
+
+}
+
+.a{
+    top:20%;
+    left:15%;
+    text-align: center;
+    position:absolute;
+    color:white;
+    text-align: left;
+    
+}
+
+.box:nth-child(1){
+    color:white;
+    display:flex;
+    
+    align-items: flex-end;
+
+}
+
+.a h1{
+    font-size:70px;
+}
+.box:nth-child(1) h3{
+    font-size: 40px;
+}
+
+.two{
+    display:block;
+    background:black;
+    
+}
+
+.b{
+    padding:2rem;
+    text-align: center;
+    color:white;
+    font-size: 80px;
+}
+
+.b span{
+    font-size: 90px;
+}
+
+.three{
+    display:grid;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    margin-left:4rem;
+    margin-right:4rem;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    column-gap: 5rem;
+    
+}
+
+.xx{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+
+
+.busy{
+    
+    border-radius:0.3rem;
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.2);
+    transition: all;
+    
+    
+    
+    
+}
+
+.busy h3{
+    margin:1rem;
+}
+
+.busy p{
+    max-width:250px;
+    margin-left:1rem;
+    margin-bottom: 2rem;
+}
+
+.busy:hover{
+    transform:scale(1.05);
+}
+
+
+
+.four{
+    color:white;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bag h1{
+    padding:1rem;
+    font-size: 60px;
+}
+
+.bag p{
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top: 1rem;
+    padding-bottom:5rem;
+}
+
+.bag:nth-child(1){
+    background-color:rgb(42, 64, 6);
+
+}
+
+.bag:nth-child(2){
+    background-color: rgb(97, 2, 2);
+}
+
+
+.five{
+    background-color: black;
+    display:block;
+    color:white;
+    text-align: center;
+    padding:1rem;
+}

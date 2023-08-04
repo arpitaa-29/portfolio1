@@ -1,0 +1,163 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.one{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.cls1{
+    position:sticky;
+    top:0;
+    left:0;
+    bottom:0;
+    width:30%;
+    text-align:left;
+    border-right:1px solid rgba(0, 0, 0, 0.258);
+    font-size:18px;
+    color:rgba(0, 0, 0, 0.813);
+    height:100vh;
+
+}
+
+        
+    
+
+.cls12{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.258);
+    border-top:1px solid rgba(0, 0, 0, 0.258);
+    color:rgba(0, 0, 0, 0.813);
+    padding:1rem;
+    font-size:25px;
+    
+    
+}
+
+.cls1 p{
+    border-bottom:1px solid rgba(0, 0, 0, 0.258);
+    
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.813);
+    display:flex;
+    flex-direction: column;
+
+}
+
+.cls1 a{
+    color:rgba(0, 0, 0, 0.813);
+    text-decoration: none;
+    padding:1rem;
+
+}
+
+
+
+
+    
+
+.cls1 a:hover{
+    background-color:rgba(0, 0, 0, 0.258);
+    
+    
+}
+
+
+@media (max-width:786px){
+    .one{
+        display: flex;
+        flex-direction: column;
+    }
+   .cls1{
+    width:100%;
+    margin:0 auto;
+    border-left: 1px solid rgba(0, 0, 0, 0.258);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+    position:relative;
+    top:0;
+    height:100px;
+    overflow:hidden;
+    overflow-y: scroll;
+    
+    
+   }
+   .cls1 a{
+    padding:0;
+   }
+
+   .cls1 a:hover{
+    background-color:rgba(0, 0, 0, 0.258);
+    cursor: pointer;
+
+   }
+}
+
+
+
+.cls2{
+
+    width:100%;
+    
+    margin:0 auto;
+    
+    color:rgba(0, 0, 0, 0.813);
+    
+   
+    
+    
+    
+}
+
+.a11 , .a22 , .a33 , .a44 , .a55{
+    width:85%;
+    margin:0 auto;
+    margin-bottom:4rem;
+    
+    
+
+}
+
+.cls2 h2{
+    margin-top:4rem;
+    padding-bottom:0.3rem;
+    border-bottom:1px solid rgba(0, 0, 0, 0.258);
+    margin-bottom:1rem;
+    color:black;
+}
+
+.cls2 p{
+    margin-bottom:1.5rem;
+}
+
+.cls2 li{
+    margin-bottom:1.5rem;
+}
+
+.a45{
+    background-color:rgba(128, 128, 128, 0.055);
+    color:black;
+    padding:1rem;
+    
+    margin-bottom: 1rem;
+}
+
+@media (max-height:786px){
+    .cls2{
+        top:40%;
+        position:relative;
+        
+}
+}
+
+
+
